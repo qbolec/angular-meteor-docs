@@ -123,7 +123,7 @@ In our case, we'll need to execute commands as follows to install all dependenci
         $ typings install es6-shim --ambient --save
         $ typings install registry:env/meteor --ambient
 
-If you look into the typings folder after the execution, you'll find there a definition file called `main.d.ts`.
+If you look into the typings folder after the execution, you'll find there a definition file called `index.d.ts`.
 
 This is a top level definition file that links all other definition files installed by `typings`.
 
