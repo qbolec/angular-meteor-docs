@@ -27,11 +27,7 @@ Let's try to change the parties array or a specific party. Nothing's working.
 
 That's because now we have to write an explicit security rule for each operation we want to make on the Mongo collection.
 
-We can assume we will allow a user to alter data if any of the following are true:
-
-- the user is logged in
-- the user created the party
-- the user is an admin
+We can assume we will allow a user to alter data if the user is logged in.
 
 # User Accounts
 
